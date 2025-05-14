@@ -3,7 +3,7 @@ from PIL import Image
 import pytesseract
 from bedrock_utility import summarize_with_bedrock
 
-pytesseract.pytesseract.tesseract_cmd = r"D:\Software Installations\Tesseract-OCR\tesseract.exe"
+#pytesseract.pytesseract.tesseract_cmd = r"D:\Software Installations\Tesseract-OCR\tesseract.exe"
 
 st.set_page_config(page_title="Med-BhAI – Clinical Note Summarizer", layout="centered")
 st.title("🧠 Med-BhAI")
